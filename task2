@@ -1,0 +1,20 @@
+marks = float(input("Enter your marks out of 100: "))
+
+if marks >= 90:
+    grade = "A"
+    message = "Excellent work. Your consistency and effort truly stand out."
+elif marks >= 75:
+    grade = "B"
+    message = "Good job. You are on the right track, keep pushing forward."
+elif marks >= 60:
+    grade = "C"
+    message = "You did fairly well. A bit more focus will take you even higher."
+elif marks >= 50:
+    grade = "D"
+    message = "You passed. Take this as a step forward and continue improving."
+else:
+    grade = "F"
+    message = "Do not be discouraged. With patience and steady effort, you can grow stronger."
+
+print("Grade:", grade)
+print("Message:", message)
